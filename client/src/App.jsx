@@ -10,7 +10,7 @@ import LiveSite from './pages/LiveSite'
 import Pricing from './pages/Pricing'
 import Footer from './components/Footer'
 
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://sitebuild-fntk.onrender.com"
 function App() {
   useGetCurrentUser()
   const {userData}=useSelector(state=>state.user)
