@@ -204,10 +204,6 @@ function Home() {
 
 
 
-            <footer className='border-t border-white/10 py-10 text-center text-sm text-zinc-500'>
-                &copy; {new Date().getFullYear()} GenWeb.ai
-            </footer>
-
             {openLogin && <LoginModal open={openLogin} onClose={() => setOpenLogin(false)} />}
 
         </div>
